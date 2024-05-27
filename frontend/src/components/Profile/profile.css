@@ -1,0 +1,273 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #434343; /* Arka plan rengi */
+    color: #ffffff; /* Metin rengi */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile__section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Tam ekran yüksekliği */
+}
+
+.profile__page {
+    width: 90%;
+    max-width: 1200px; /* Maksimum genişlik */
+    background: #333; /* Kutu arka planı */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* İki sütun */
+    grid-gap: 20px;
+}
+
+.profile__info, .statistics, .listings {
+    background: #2c2c2c; /* Bölüm arka planları */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.profile-img-container {
+    text-align: center;
+}
+
+.profile-img-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #555; /* Resim çerçevesi */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2, h3, p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.stat, .listing {
+    text-align: center; /* İstatistik ve listeleme metinlerini ortala */
+}
+
+.listings {
+    background: #2c2c2c; /* Bölüm arka planları */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    color: #ffffff; /* Yazı rengi beyaz */
+}
+
+.li {
+    background: #393939; /* Liste arka planı */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff; /* Liste elemanlarının yazı rengi beyaz */
+}
+
+p, h3 {
+    color: #ffffff; /* Tüm paragraf ve h3 etiketlerinin rengini beyaz yap */
+}
+
+.profile__nav {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #ffffff; /* Beyaz metin rengi */
+    background-color: #333; /* Daha koyu bir arka plan rengi */
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+    text-decoration: none; /* Altı çizili metin kaldırıldı */
+    transition: background-color 0.3s, color 0.3s; /* Renk geçiş animasyonu */
+}
+
+.nav-link:hover {
+    background-color: #444; /* Hover durumu için arka plan rengi */
+    color: #fff; /* Hover durumu için metin rengi */
+}
+
+.nav-link.active {
+    background-color: #555; /* Aktif link için daha açık arka plan rengi */
+    color: #ddd; /* Aktif link için daha koyu metin rengi */
+}
+
+.edit-profile__main_container{
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+.edit-profile__container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #dfe4e5;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(91, 196, 205, 0.1);
+  }
+  
+  .edit-profile__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+  }
+  
+  .edit-profile__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-profile__label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .edit-profile__input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-profile__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .edit-profile__button {
+    padding: 10px;
+    border: none;
+    background-color: #628db1;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .edit-profile__button__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .edit-profile__button:hover {
+    background-color: #74b9d4;
+  }
+
+  .edit-profile__button__loader{
+    margin-left: 10px;
+  }
+  
+  .edit-profile__nav{
+    text-align: justify;
+  }
+  
+.owned-nft__container{
+    margin-top: 100px;
+}
+
+.created__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.created__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.created__nav .nav-link {
+    color: #007bff;
+}
+
+.created__nav .nav-link.active {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.collections__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.creators__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 75px;
+}
+
+.creators__title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #628db1;
+    font-weight: bold;
+}
+
+.creators__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+    width: 1000px;
+}
+
+.nft-card__price {
+    font-size: 1.5em;
+    color: #dfe4e5;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.listings__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 75px;
+    
+}
+
+.listings__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.listings__title {
+    text-align: center;
+    font-size: 2.9em;
+    margin-bottom: 20px;
+    color: #74b9d4;
+    font-weight: bold;
+}

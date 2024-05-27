@@ -1,0 +1,140 @@
+.nft-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #868689;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 85px;
+}
+
+.nft-container h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #14151e;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nft-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #454545;
+    font-weight: 600;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.attributes-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.attributes-group div {
+    display: flex;
+    gap: 10px;
+}
+
+.remove-btn {
+    background-color: #e84142;
+    color: #dfe4e5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: #d53031;
+}
+
+.add-btn {
+    background-color: #47627f;
+    color: #dfe4e5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #274d76;
+}
+
+.submit-btn {
+    background-color: #274d76;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.submit-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn:hover {
+    background-color: #47627f;
+}
+
+.submit-btn-loader {
+    margin-left: 10px;
+}
+
+.collection-link {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    color: #3f4473;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.collection-link a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.collection-link a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.collection-link-one{
+    color: #002646;
+    font-weight: bold;
+}

@@ -18,7 +18,7 @@ function Creators(){
                 var creatorSet = [...set];
                 var creator = [];
                 for (let i = 0; i < creatorSet.length; i++){
-                    const response = await axios.get(`http://localhost:8080/users/${creatorSet[i]}`);
+                    const response = await axios.get(`http://localhost:8080/users/${creatorSet[i].toLowerCase()}`);
                     creator = [...creator, response.data];
                 }
                 setCreators(creator);

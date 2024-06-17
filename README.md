@@ -65,6 +65,7 @@ Marketplace allows users to buy, sell, create collections and mint NFTs on the A
 
 - Node.js and npm
 - Metamask
+- Hardhat
 
 ### Clone the Repository
 

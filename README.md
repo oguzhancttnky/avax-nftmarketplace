@@ -78,7 +78,9 @@ cd avax-nftmarketplace
 
 - You need to get API key from Moralis.
 - Copy API key and paste to apiKey variables in FetchCollectionsHandler and FetchNFTHandler functions.(avax-nftmarketplace/backend/pkg/api/handler/collection.go and avax-nftmarketplace/backend/pkg/api/handler/nft.go)
-- You need to deploy your markets smart contract Avalanche mainnet with using hardhat. (npx hardhat run scripts/marketplace_deploy.js --network mainnet)
+- You need to deploy your markets smart contract Avalanche mainnet with using hardhat.
+- Copy private key of wallet and paste it to accounts in hardhat.config.js.
+- Run ```npx hardhat run scripts/marketplace_deploy.js --network mainnet```.
 - Copy your markets contract address and paste it to REACT_APP_MARKET_CONTRACT_ADDRESS in frontend/.env file.
 - Create Pinata account and fill REACT_APP_PINATA_API_KEY and REACT_APP_PINATA_SECRET_API_KEY.
 - Create your Amazon RDS for PostgreSQL and fill DB_HOST,DB_PORT,DB_USER,DB_PASSWORD and DB_NAME in backend/.env

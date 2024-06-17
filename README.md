@@ -1,9 +1,3 @@
-
-<h1>Marketplace Architecture</h1>
-
-![Marketplace Architecture](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/322b2bd3-e52a-4e76-9985-fe66abe54cff)
-
-
 # AVAX NFT Marketplace
 
 Marketplace allows users to buy, sell, create collections and mint NFTs on the Avalanche.
@@ -13,6 +7,7 @@ Marketplace allows users to buy, sell, create collections and mint NFTs on the A
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Architecture](#architecture)
 
 ## Features
 
@@ -104,3 +99,6 @@ npm install
 npm run start
 ```
 
+## Architecture
+
+![Marketplace Architecture](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/322b2bd3-e52a-4e76-9985-fe66abe54cff)

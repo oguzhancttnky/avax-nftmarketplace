@@ -22,12 +22,12 @@ Marketplace allows users to buy, sell, create collections and mint NFTs on the A
 ![Screenshot 2024-05-31 135725](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/6e47e7c0-ace4-4cad-9cad-8ecb530dcb88)
 
  
-- **Create Collections**: Create your own collection. (You need 0.1 AVAX minimum in your metamask wallet.)
+- **Create Collections**: Create your own collection. (You need 0.1AVAX ($3) minimum in your metamask wallet.)
 
 ![Screenshot 2024-05-31 135427](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/6ba6d314-05d1-472a-b689-542eb5a6e7d3)
 
 
-- **Mint NFTs**: Mint your NFTs in your collections. (You need 0.01 AVAX minimum in your metamask wallet.)
+- **Mint NFTs**: Mint your NFTs in your collections. (You need 0.005AVAX ($0.15) minimum in your metamask wallet.)
 
 ![Screenshot 2024-05-31 134815](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/bb80c39f-fa3b-47b4-8dc3-40d9d4793bce)
 
@@ -78,7 +78,7 @@ cd avax-nftmarketplace
 
 - You need to get API key from Moralis.
 - Copy API key and paste to apiKey variables in FetchCollectionsHandler and FetchNFTHandler functions.(avax-nftmarketplace/backend/pkg/api/handler/collection.go and avax-nftmarketplace/backend/pkg/api/handler/nft.go)
-- You need to deploy your markets smart contract Avalanche mainnet with using hardhat. (You need 0.03 AVAX minimum in your metamask wallet)
+- You need to deploy your markets smart contract Avalanche mainnet with using hardhat. (You need 0.03AVAX ($1) minimum in your metamask wallet)
 - Copy private key of wallet and paste it to accounts in hardhat.config.js.
 - Navigate to frontend folder. ```cd avax-nftmarketplace/frontend``` and run ```npx hardhat run scripts/marketplace_deploy.js --network mainnet```.
 - Copy your markets contract address and paste it to REACT_APP_MARKET_CONTRACT_ADDRESS in frontend/.env file.

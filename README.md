@@ -22,7 +22,7 @@ Marketplace allows users to buy, sell, create collections and mint NFTs on the A
 ![Screenshot 2024-05-31 135725](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/6e47e7c0-ace4-4cad-9cad-8ecb530dcb88)
 
  
-- **Create Collections**: Create your own collection. (You need 0.12 AVAX minimum in your metamask wallet.)
+- **Create Collections**: Create your own collection. (You need 0.1 AVAX minimum in your metamask wallet.)
 
 ![Screenshot 2024-05-31 135427](https://github.com/oguzhancttnky/avax-nftmarketplace/assets/59288589/6ba6d314-05d1-472a-b689-542eb5a6e7d3)
 
